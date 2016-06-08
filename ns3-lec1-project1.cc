@@ -45,7 +45,6 @@ main (int argc, char *argv[])
         cmd.AddValue ("delay","my delay",delay);
 	cmd.Parse(argc,argv);
         
-
 	printHello(name,id,delay);
 
 	Simulator::Stop(Seconds(5));
