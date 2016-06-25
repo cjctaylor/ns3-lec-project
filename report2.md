@@ -1,4 +1,4 @@
-﻿#第二次ns3软件培训报告
+#第二次ns3软件培训报告
 ##曹金超
 ###过程及内容
 ####1.拓扑结构图
@@ -11,7 +11,7 @@
 ![结果2](http://t3.qpic.cn/mblogpic/f65729b496648964324e/2000)<br>
 ####3.STA移动模型部分代码截图
 要STA节点线性远离AP，则要选择ConstantVelocityMobilityModel的移动模型，对其进行移动速度设置<br>
-![代码截图1](http://t3.qpic.cn/mblogpic/f65729b496648964324e/2000)<br>
+![代码截图1](http://t3.qpic.cn/mblogpic/78d6e169e4cde93cebfc/2000)<br>
 ![代码截图2](http://t3.qpic.cn/mblogpic/78d6e169e4cde93cebfc/2000)<br>
 ###问题及总结
 1.在拓扑2中，出现了不知道如何将两个P2P信道连接在一个节点上的情况。因为同时将两个P2P节点赋值给一个csma节点会使其覆盖掉前一个，所以应该将其中一个p2p节点赋值给csma节点后，再将该csma节点赋值给另一个p2p节点，这样便达到了效果。<br>
