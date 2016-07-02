@@ -25,19 +25,19 @@
     }
 ```
 ###3. PyViz截图
-*第一种拓扑截图<br>
+* 第一种拓扑截图<br>
 ![图片5](http://ww4.sinaimg.cn/mw690/edd82795gw1f5fdpu8bsmj20k20cuahs.jpg)<br>
 ![图片6](http://ww2.sinaimg.cn/mw690/edd82795gw1f5fdprucz4j20jd0fdgn1.jpg)<br>
-*第二种拓扑截图<br>
+* 第二种拓扑截图<br>
 ![图片7](http://ww2.sinaimg.cn/mw690/edd82795gw1f5fdpr4j13j20k20cuahm.jpg)<br>
 ![图片8](http://ww3.sinaimg.cn/mw690/edd82795gw1f5fdpp83g1j20jd0fdwfs.jpg)<br>
 ###4. wireshark查看文件
 ![图片9](http://ww3.sinaimg.cn/mw690/edd82795gw1f5fdpnhniwj20kx0jntj5.jpg)<br>
 ###5. Matlab处理数据
 将四个客户机的收发报文时延拿出来做比较。<br>
-*客户机发报文<br>
+* 客户机发报文<br>
 ![图片10](http://ww1.sinaimg.cn/mw690/edd82795gw1f5fdqa2oebj209304wq39.jpg)<br>
 ![图片11](http://ww4.sinaimg.cn/mw690/edd82795gw1f5fdpvm4twj20gk0c8dg9.jpg)<br>
-*客户机收报文<br>
+* 客户机收报文<br>
 ![图片12](http://ww4.sinaimg.cn/mw690/edd82795gw1f5fdq7fhxtj209a0550t5.jpg)<br>
 ![图片13](http://ww3.sinaimg.cn/mw690/edd82795gw1f5fdpujzosj20gk0c8t99.jpg)<br>
