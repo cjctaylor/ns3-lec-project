@@ -7,6 +7,17 @@
 #include "ns3/csma-module.h"
 #include "ns3/internet-module.h"
 
+//网络拓扑
+//
+//         Wifi 10.1.3.0                                 Wifi 10.1.2.0
+//                            AP                 AP
+//*    *    *    *    *   *   *                  *   *   *   *   *   *   *
+//|    |    |    |    |   |   |     10.1.1.0     |   |   |   |   |   |   |
+//n13  n12  n11  n10  n9  n8  n1 --------------- n0  n2  n3  n4  n5  n6  n7
+//                                point-to-point   
+//                                  
+
+
 using namespace ns3;
 
 NS_LOG_COMPONENT_DEFINE ("FourthScriptExample");		//定义记录组件
